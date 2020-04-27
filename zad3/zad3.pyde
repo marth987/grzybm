@@ -36,3 +36,7 @@ def draw():
         if keyPressed:
             fill(*lista_kolorow[iteracja_programu%len(lista_kolorow)])
             text("G", width/2+10, height/2)
+            
+# 1pkt
+# brakuje obsługi strzałek, myszka działa 'dziwnie', brakuje kształtu niestandardowego
+# plus do aktywności za zmianę kolorów
